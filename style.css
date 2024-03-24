@@ -1,0 +1,471 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin-bottom: 65px;
+  background: #F2CEDA;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.menu img {
+  margin-left: 245px;
+}
+
+.menu .btn {
+  width: 165px;
+  height: 49px;
+  border-radius: 5px;
+  background: #DC0048;
+  margin-right: 230px;
+}
+
+.list-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.list-items li a {
+  text-decoration: none;
+  margin-left: 40px;
+  color: #150101;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.main-section {
+  margin-left: 254px;
+  margin-bottom: 100px;
+}
+
+.main-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-sec_text p {
+  color: #0F0101;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.4px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.main-sec h1 {
+  color: #0F0101;
+  font-family: Fredoka One;
+  font-size: 57.33px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120.5%; 
+  margin-top: 35px;
+}
+
+.main-sec p {
+  color: #0F0101;
+  font-family: Hind Madurai;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; 
+}
+
+.main-sec .btn {
+  width: 165px;
+  height: 49px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #D23166;
+}
+
+.main-sec_img img {
+  width: 597px;
+  height: 597px;
+}
+
+.del {
+  margin-bottom: 130px;
+  background: #FFF;
+}
+
+.deliver {
+  margin-left: 150px;
+  margin-right: 130px;
+}
+
+.deliver_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.deliver-card {
+  width: 250px;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  background: #FFF;
+  box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.08);
+}
+
+.deliver-card h4 {
+  color: #000;
+  font-family: Hind Madurai;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 9px;
+}
+
+.deliver-card p {
+  color: #000;
+  text-align: center;
+  font-family: Hind Madurai;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.deliver-card .ship {
+  width: 51.002px;
+  height: 43.35px;
+  flex-shrink: 0;
+}
+
+.deliver-card .package {
+  width: 32px;
+  height: 42.006px;
+  flex-shrink: 0;
+}
+
+.deliver-card .cash {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+}
+
+.deliver-card .delivery {
+  width: 54px;
+  height: 54px;
+  flex-shrink: 0;
+}
+
+.sugar-ice {
+  width: 1340px;
+  height: 544.495px;
+  flex-shrink: 0;
+  background: #F8EDF0;
+  margin-bottom: 136px;
+}
+
+.ice_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ice_title h2 {
+  width: 349px;
+  height: 98.27px;
+  flex-shrink: 0;
+  color: #150101;
+  font-family: Hind Madurai;
+  font-size: 44.2px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110.5%;
+  margin-left: 250px;
+  margin-bottom: 110px;
+}
+
+.ice_title img {
+  width: 655px;
+  height: 656.804px;
+  flex-shrink: 0;
+}
+
+.ice-btn {
+  width: 165px;
+  height: 49.135px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #D64374;
+  color: #FAFAFA;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 250px;
+}
+
+.product {
+  margin-bottom: 150px;
+}
+
+.product_title h2 {
+  align-items: center;
+  color: #150101;
+  font-family: Hind Madurai;
+  font-size: 44.2px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 650px;
+  margin-bottom: 64px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.product-list li a {
+  text-decoration: none;
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.product-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 250px;
+  margin-right: 220px;
+}
+
+.product-img {
+  width: 580px;
+  height: 415px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.product_text h4 {
+  color: #000;
+  font-family: Hind Madurai;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.product_text p {
+  width: 454px;
+  height: 67px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 25px;
+}
+
+.product_text .cost {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.product_text h5 {
+  color: #000;
+  font-family: Hind Madurai;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  }
+
+.product_text span {
+  margin-left: 5px;
+  color: #000;
+  font-family: Hind Madurai;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: strikethrough;
+}
+
+.product_text .product-btn {
+  width: 165px;
+  height: 49px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #D64374;
+}
+
+.product_text2 {
+  display: flex;
+  align-items: center;
+}
+
+.product_text2 h5 {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-img1 {
+  width: 305px;
+  height: 627px;
+  flex-shrink: 0;
+  border-radius: 33px;
+  background: #D64374;
+}
+
+.question {
+  margin-bottom: 150px;
+  text-align: center;
+}
+
+.question1 h2 {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+.question1 .form {
+  display: flex;
+  align-items: center;
+  margin-left: 300px;
+}
+
+.question1 .form form input {
+  width: 637px;
+  height: 74px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #FAFAFA;
+}
+
+.question1 .form .question-btn {
+  width: 134px;
+  height: 74px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #D64374;
+  color: #FFF;
+}
+
+.footer {
+  background: #0A0808;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.footer_title {
+  display: flex;
+  flex-direction: column;
+  color: #FFF;
+}
+
+.footer_title p {
+  width: 207px;
+  height: 47px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.687%; 
+  letter-spacing: 0.12px;
+}
+
+.footer_title h5 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer_title img {
+  width: 79px;
+  height: 79px;
+}
+
+.links img {
+  width: 15px;
+  height: 15px;
+}
+
+.footer_menu, .footer_item, .footer_list {
+  display: flex;
+  flex-direction: column;
+  color: #FFF;
+  list-style: none;
+}
+
+.footer_form h5 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.footer_form input {
+  width: 250px;
+  height: 55px;
+  border-radius: 5px;
+  border: 2px solid #D64374;
+  margin-bottom: 15px;
+}
+
+.footer_form form button {
+  width: 125px;
+  height: 55px;
+  border-radius: 5px;
+  background: #D23166;
+}
